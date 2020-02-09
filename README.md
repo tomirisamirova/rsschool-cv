@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://tomirisamirova.github.io/rsschool-cv/cv
