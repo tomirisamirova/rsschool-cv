@@ -18,24 +18,31 @@
 
 ##### Code example:
 * Python: counts characters and classifies them
- def countSym(str):
-  words = str.split()
-  upper = 0
-  lower = 0
-  digit = 0
-  symbol = 0
-  for i in str:
-    if i.islower():
-      lower+=1
-    elif i.isupper():
-      upper+=1
-    elif i.isnumeric():
-      digit+=1
-    else:
-      symbol+=1
- 
-  print("Upper Case Symbols = ", upper, ', ', "Lower Case Symbols = ", lower, ', ', "Digits = ", digit, ', ', "Symbols = ", symbol)
-    
+def countSym(str):
+    words = str.split()
+    upper = 0
+    lower = 0
+    digit = 0
+    symbol = 0
+    sum = 0
+    for i in str:
+      if i.islower():
+        lower += 1
+        sum += 1
+      elif i.isupper():
+        upper += 1
+        sum += 1
+      elif i.isnumeric():
+        digit += 1
+        sum += 1
+      else:
+        symbol += 1
+        sum += 1
+        
+    print("Upper Case Symbols = ", upper, ', ', "Lower Case Symbols = ", lower, ', ', "Digits = ", digit, ', ', "Symbols = ", symbol)
+    print("Overall number of symbols: ")
+    return sum
+
 str = "SoMNEranfodmutiw738yh*765Ybf%$#sTr1ing"
 print("Number of symbols:")
 print(countSym(str))
