@@ -17,7 +17,7 @@
 * Go
 
 ##### Code example:
-```Python: counts characters and classifies them
+```python
 def countSym(str):
     words = str.split()
     upper = 0
