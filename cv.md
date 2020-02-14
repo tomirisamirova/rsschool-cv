@@ -17,7 +17,7 @@
 * Go
 
 ##### Code example:
-* Python: counts characters and classifies them
+```Python: counts characters and classifies them
 def countSym(str):
     words = str.split()
     upper = 0
@@ -46,6 +46,7 @@ def countSym(str):
 str = "SoMNEranfodmutiw738yh*765Ybf%$#sTr1ing"
 print("Number of symbols:")
 print(countSym(str))
+```
 
 ##### Experience:
 * Making a primitive calculator in JS
