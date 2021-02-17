@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Tomiris Amirova CV</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1>CV</h1>
+      <h2>Tomiris Amirova</h2>
+      <img class="photo" src="photo.jpg" alt="my photo">
+      <ul>
+        <p><b>Contact Info:</b></p>
+        <li>tomiris.amirova@gmail.com</li>
+        <li>+77782302699</li>
+      </ul>
+      <ul><b>Summary:</b> A novice in IT development who is eager to learn Web Development, while simultaneously working on multiple projects using Go and Python.
+      </ul>
+      <ul><b>Skills:</b>
+        <li>Web Development basics</li>
+      </ul>
+      <ul><b>Languages:</b>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Go</li>
+      </ul>
+      <p><b>Code Example</b></p>
+        <pre><code class="python language-python"> def countSym(str):
+                words = str.split()
+                upper = 0
+                lower = 0
+                digit = 0
+                symbol = 0
+                sum = 0
+                for i in str:
+                  if i.islower():
+                    lower += 1
+                    sum += 1
+                  elif i.isupper():
+                    upper += 1
+                    sum += 1
+                  elif i.isnumeric():
+                    digit += 1
+                    sum += 1
+                  else:
+                    symbol += 1
+                    sum += 1
+                    
+                print("Upper Case Symbols = ", upper, ', ', "Lower Case Symbols = ", lower, ', ', "Digits = ", digit, ', ', "Symbols = ", symbol)
+                print("Overall number of symbols: ")
+                return sum
+            
+            str = "SoMNEranfodmutiw738yh*765Ybf%$#sTr1ing"
+            print("Number of symbols:")
+            print(countSym(str))
+          </code></pre>
+        <ul><b>Experience:</b>
+          <li>Making a primitive calculator in JS</li>
+          <li>Front-End Development of a multiple-page website</li>
+        </ul>
+        <ul><b>Education:</b>
+          <li>ALEM school (01 platform-based)</li>
+          <li>CSCI111: Web Programming & Problem Solving</li>
+          <li>CSCI115: Programming Fundamentals</li>
+          <li>Udemy: Master the Basics of HTML5 & CSS3: Beginner Web Development</li>
+          <li>Udemy: Web Development By Doing: HTML / CSS From Scratch</li>
+        </ul>
+        <ul><b>English Level:</b>
+          <li>Advanced</li>
+          <li>IELTS Band Score 7.5 (2016)</li>
+          <li>A student at the university with English as a language of instruction</li>
+        </ul>
+      </div>
+  </body>
+  </html>
